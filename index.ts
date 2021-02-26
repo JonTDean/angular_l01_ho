@@ -32,3 +32,5 @@ class ContactCard implements Person, Contact {
 }
 
 let newPerson = new ContactCard('Henry', 'Caville', 1234567890, 'hc@hc.com');
+
+newPerson.sendMessage();
